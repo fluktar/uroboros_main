@@ -4,6 +4,7 @@ let xMobile = document.querySelector('.x_mobile');
 let ulDisplayNone = document.querySelector('.ul_display_none');
 let navMobileItems = document.querySelectorAll('.nav-mobile-item');
 let yearFooter = document.querySelector('.yearFooter');
+let email = document.getElementById('email');
 
 const showNavMobile = () => {
 	barsMobile.classList.add('bars_display_mobile_none');
@@ -71,8 +72,10 @@ const cookies = () => {
 };
 
 cookies();
-let email = document.getElementById('email');
+
 email.addEventListener('click', () => {
 	if (email.value.includes('@') && email.value.includes('.')) {
+		console.log('ok');
 	}
+	
 });
