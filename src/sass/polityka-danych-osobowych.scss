@@ -1,0 +1,46 @@
+@keyframes personal_data_policy {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.personal-data-policy {
+  width: 80%;
+  margin: 0 auto;
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+    text-align: justify;
+  }
+  .anim-ico {
+    font-size: 26rem;
+    right: 30vw;
+  }
+  .ico1 {
+    font-size: 20rem;
+    left: 10vw;
+    opacity: 0.5;
+  }
+  .ico2 {
+    font-size: 22rem;
+    right: 18vw;
+  }
+  .ico3 {
+    font-size: 24;
+    opacity: 0.5;
+  }
+  i {
+    position: absolute;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0.3);
+    animation: personal_data_policy 50s linear infinite;
+  }
+}
