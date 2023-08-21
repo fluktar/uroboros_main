@@ -71,3 +71,9 @@ const cookies = () => {
 };
 
 cookies();
+let email = document.getElementById('email');
+email.addEventListener('click', () => {
+	if (email.value.includes('@') && email.value.includes('.')) {
+		
+	}
+});
