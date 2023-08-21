@@ -76,6 +76,7 @@ cookies();
 email.addEventListener('click', () => {
 	if (email.value.includes('@') && email.value.includes('.')) {
 		console.log('ok');
+		
 	}
 	
 });
