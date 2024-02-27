@@ -1,0 +1,46 @@
+@keyframes personal_data_policy {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.personal-data-policy {
+  width: 80%;
+  margin: 0 auto;
+}
+.personal-data-policy h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+.personal-data-policy p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem 0;
+  text-align: justify;
+}
+.personal-data-policy .anim-ico {
+  font-size: 26rem;
+  right: 30vw;
+}
+.personal-data-policy .ico1 {
+  font-size: 20rem;
+  left: 10vw;
+  opacity: 0.5;
+}
+.personal-data-policy .ico2 {
+  font-size: 22rem;
+  right: 18vw;
+}
+.personal-data-policy .ico3 {
+  font-size: 24;
+  opacity: 0.5;
+}
+.personal-data-policy i {
+  position: absolute;
+  z-index: -1;
+  color: rgba(0, 0, 0, 0.3);
+  animation: personal_data_policy 50s linear infinite;
+}/*# sourceMappingURL=polityka-danych-osobowych.css.map */
