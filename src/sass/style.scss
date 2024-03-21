@@ -362,15 +362,17 @@ footer {
   display: flex;
   justify-content: center;
   p {
-    font-size: 3rem;
+    padding: 2rem;
+    font-size: 2rem;
     span {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
 }
 
 @media (min-width: 768px) {
   .nav-bar {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
     width: 90%;
     .hero_img {
       background-image: linear-gradient(
@@ -598,6 +600,7 @@ footer {
   .contact {
     width: 90%;
     margin: 0 auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
     .img-bg-mobile {
       display: none;
     }
@@ -694,5 +697,6 @@ footer {
 
 #superico {
   opacity: 0;
+
   transition: opacity 0.8s ease-out 0.5s; /* animacja pojawiania się */
 }
