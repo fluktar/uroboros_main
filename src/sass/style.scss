@@ -60,7 +60,7 @@ body {
   background-color: var(--nav-text-color);
 }
 .nav-bar {
-  width: 100%;
+  margin: auto;
   .hero_img {
     background-image: linear-gradient(
         to right,
@@ -82,6 +82,12 @@ body {
       height: 25vh;
       position: absolute;
       animation: moveInLogo 1s ease-out;
+    }
+    .hero_bg {
+      background-color: rgba(0, 0, 128, 0.2);
+      width: 100%;
+      height: 30vh;
+      position: absolute;
     }
 
     .hero_text {
@@ -167,6 +173,8 @@ body {
 }
 
 .team {
+  width: 90%;
+  margin: auto;
   h2 {
     font-size: 3rem;
     text-align: center;
@@ -323,6 +331,8 @@ body {
   }
 }
 .contact {
+  width: 90%;
+  margin: auto;
   .img-bg-mobile {
     display: flex;
     flex-direction: column;
@@ -361,6 +371,7 @@ footer {
 
 @media (min-width: 768px) {
   .nav-bar {
+    width: 90%;
     .hero_img {
       background-image: linear-gradient(
           to right,
@@ -632,7 +643,7 @@ footer {
   }
 
   .contact {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     .img-bg-mobile {
       display: none;
