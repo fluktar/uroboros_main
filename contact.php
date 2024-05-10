@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "office@uroboros.online";
     $subject = "Nowa wiadomość od $name";
     $body = "Imię: $name\nEmail: $email\nWiadomość:\n$message";
-    
+
     $headers = "From: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
@@ -22,5 +22,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Nieprawidłowe żądanie.";
 }
-?>
-
